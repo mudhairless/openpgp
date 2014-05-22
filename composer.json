@@ -6,7 +6,7 @@
     "require": {
         "phpseclib/phpseclib": "0.3.*"
     },
-    "license": "UNLICENSE",
+    "license": "CC0-1.0",
     "authors": [
         {
             "name": "Ebben Feagan",
@@ -20,7 +20,7 @@
         {
             "name": "Stephen Paul Weber",
             "email": "singpolyma@singpolyma.net"
-        },
+        }
     ],
     "autoload": {
         "psr-4": {
