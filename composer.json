@@ -4,6 +4,7 @@
     "type": "library",
     "version": "0.0.1",
     "require": {
+		"php": ">=5.0.0",
         "phpseclib/phpseclib": "0.3.*"
     },
     "license": "CC0-1.0",
