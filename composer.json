@@ -2,7 +2,7 @@
     "name": "mudhairless/openpgp",
     "description": "Implementation of OpenPGP for PHP",
     "type": "library",
-    "version": "0.0.1",
+    "version": "1.0.0-beta",
     "require": {
 		"php": ">=5.0.0",
         "phpseclib/phpseclib": "0.3.*"
