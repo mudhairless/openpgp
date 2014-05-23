@@ -54,7 +54,7 @@ class SecretKeyPacket extends \OpenPGP\Packets\PublicKeyPacket {
       $secret_material = '';
       foreach(self::$secret_key_fields[$this->algorithm] as $f) {
         $f = $this->key[$f];
-        $secret_material .= pack('n', OpenPGP::bitlength($f));
+        $secret_material .= pack('n', \OpenPGP\Util::bitlength($f));
         $secret_material .= $f;
       }
       $bytes .= $secret_material;

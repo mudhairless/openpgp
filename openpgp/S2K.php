@@ -26,7 +26,7 @@ class S2K {
       case 3:
         $s2k->hash_algorithm = ord($input{1});
         $s2k->salt = substr($input, 2, 8);
-        $s2k->count = OpenPGP::decode_s2k_count(ord($input{10}));
+        $s2k->count = \OpenPGP\Util::decode_s2k_count(ord($input{10}));
         $input = substr($input, 11);
         break;
     }

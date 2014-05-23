@@ -243,8 +243,8 @@ class SignaturePacket extends \OpenPGP\Packet {
   static $subpacket_types = array(
       //0 => 'Reserved',
       //1 => 'Reserved',
-      2 => 'SignatureCreationTime',
-      3 => 'SignatureExpirationTime',
+      2 => 'CreationTime',
+      3 => 'ExpirationTime',
       4 => 'ExportableCertification',
       5 => 'TrustSignature',
       6 => 'RegularExpression',
@@ -272,7 +272,7 @@ class SignaturePacket extends \OpenPGP\Packet {
       28 => 'SignersUserID',
       29 => 'ReasonForRevocation',
       30 => 'Features',
-      31 => 'SignatureTarget',
+      31 => 'Target',
       32 => 'EmbeddedSignature',
     );
 

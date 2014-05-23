@@ -14,7 +14,7 @@ class Packet {
 
   static function class_for($tag) {
     return isset(self::$tags[$tag]) && class_exists(
-      $class = '\\OpenPGP\\' . self::$tags[$tag] . 'Packet') ? $class : __CLASS__;
+      $class = '\\OpenPGP\\Packets\\' . self::$tags[$tag] . 'Packet') ? $class : __CLASS__;
   }
 
   /**
