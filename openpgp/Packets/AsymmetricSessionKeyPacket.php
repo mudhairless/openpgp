@@ -30,7 +30,7 @@ class AsymmetricSessionKeyPacket extends \OpenPGP\Packet {
         $this->encrypted_data = $this->input;
         break;
       default:
-        throw new Exception("Unsupported AsymmetricSessionKeyPacket version: " . $this->version);
+        throw new \Exception("Unsupported AsymmetricSessionKeyPacket version: " . $this->version);
     }
   }
 
