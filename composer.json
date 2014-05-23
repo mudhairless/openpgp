@@ -2,6 +2,18 @@
     "name": "mudhairless/openpgp",
     "description": "Implementation of OpenPGP for PHP",
     "type": "library",
+	"keywords": [
+		"security",
+		"crypto",
+		"cryptography",
+        "encryption",
+        "signature",
+        "signing",
+		"gnupg",
+		"openpgp",
+		"pgp",
+		"key-pair"
+		],
     "require": {
 		"php": ">=5.0.0",
         "phpseclib/phpseclib": "0.3.*"
