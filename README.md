@@ -1,6 +1,13 @@
-Implementation of OpenPGP for PHP
+# !! WARNING! THIS CODE IS NOT MAINTAINED AND IS KNOWN TO HAVE ISSUES. !!
+
+I am leaving the code available so that someone who had the inclination
+can fork and fix it. In my limited testing encryption works but I cannot
+get the reference tools to verify generated signatures and vice versa.
+
+##Implementation of OpenPGP for PHP
 
 Based on the work done at: https://github.com/bendiken/openpgp-php
+The only changes from this project were to update to latest PSR standards.
 
 ### About OpenPGP
 
